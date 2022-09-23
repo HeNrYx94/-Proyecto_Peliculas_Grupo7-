@@ -3,14 +3,28 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
+.redes{
+  display:flex;
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+}
+.tamañoRed{
+  display:inline-block;
+
+  width: 100px;
+  height: 100px;
+}
+
+.poster{
+  width: 250px;
+  height: 250px;
+}
+.tamañoPoster{
+  width: 300px;
+  height: 300px;
 }
 
 .App-header {
@@ -21,7 +35,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(203, 15, 15);
+  background-image: url("./img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .App-link {
